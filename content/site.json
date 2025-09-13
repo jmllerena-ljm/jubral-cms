@@ -31,7 +31,8 @@
         "Desarrollo de proyectos de ingeniería multidisciplinaria",
         "Consultoría técnica y estudios especializados",
         "Supervisión y control de calidad en todas las fases del proyecto"
-      ]
+      ],
+      "image": "/img/services/ingenieria.svg"
     },
     {
       "category": "Construcción",
@@ -41,7 +42,8 @@
         "Movimiento de tierras",
         "Demolición y reparación de estructuras",
         "Cercos perimétricos"
-      ]
+      ],
+      "image": "/img/services/construccion.svg"
     },
     {
       "category": "Estructuras",
@@ -50,7 +52,8 @@
         "Diseño, fabricación y montaje de estructuras metálicas",
         "Estructuras industriales pesadas (naves, plantas, tanques)",
         "Estructuras ligeras (barandas, cercos metálicos, graderías)"
-      ]
+      ],
+      "image": "/img/services/acero.svg"
     },
     {
       "category": "Servicios técnicos",
@@ -59,7 +62,8 @@
         "Topografía y levantamientos",
         "Planificación y gestión de proyectos",
         "Estudios de evaluación estructural"
-      ]
+      ],
+      "image": "/img/services/tecnicos.svg"
     },
     {
       "category": "Logística",
@@ -69,7 +73,8 @@
         "Transporte de equipos y herramientas menores",
         "Distribución de insumos y repuestos a obra",
         "Servicio de carga y descarga en destino"
-      ]
+      ],
+      "image": "/img/services/logistica.svg"
     }
   ],
   "contact": {
