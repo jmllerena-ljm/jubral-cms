@@ -1,0 +1,84 @@
+{
+  "brand": {
+    "name": "Jubral",
+    "logo": "/logo.jpg"
+  },
+  "hero": {
+    "kicker": "Soluciones integrales en construcción",
+    "title": "Construimos confianza. Proyectamos futuro.",
+    "subtitle": "Empresa de construcción que transforma proyectos en realidades sólidas y duraderas.",
+    "cta": {
+      "label": "Contáctanos",
+      "href": "#contacto"
+    }
+  },
+  "about": {
+    "title": "Presentación",
+    "body": "JUBRAL es una empresa de construcción que ofrece soluciones integrales de alto nivel, concebidas para transformar proyectos en realidades sólidas y duraderas. Nuestra labor se sustenta en la eficiencia, la seguridad y la innovación constante, entregando resultados que no solo cumplen con los más exigentes estándares, sino que también superan las expectativas de nuestros clientes, consolidando relaciones de confianza y valor a largo plazo."
+  },
+  "mission": {
+    "body": "Ejecutar proyectos de construcción con excelencia técnica, responsabilidad y compromiso con el cumplimiento, brindando un servicio confiable que impacte positivamente en nuestros clientes y aporte al desarrollo sostenible de la sociedad."
+  },
+  "vision": {
+    "body": "Ser reconocidos como empresa referente en el sector construcción en la región sur del Perú, destacando por nuestra capacidad innovadora, profesionalismo y excelencia en cada obra, contribuyendo al crecimiento económico, social y sustentable de la región y el país."
+  },
+  "services": [
+    {
+      "category": "Ingeniería",
+      "title": "Proyectos de ingeniería, consultoría y supervisión",
+      "items": [
+        "Expedientes para viviendas y edificaciones",
+        "Desarrollo de proyectos de ingeniería multidisciplinaria",
+        "Consultoría técnica y estudios especializados",
+        "Supervisión y control de calidad en todas las fases del proyecto"
+      ]
+    },
+    {
+      "category": "Construcción",
+      "title": "Construcción de obras civiles",
+      "items": [
+        "Edificaciones residenciales, comerciales e industriales",
+        "Movimiento de tierras",
+        "Demolición y reparación de estructuras",
+        "Cercos perimétricos"
+      ]
+    },
+    {
+      "category": "Estructuras",
+      "title": "Fabricación y construcción de estructuras de acero",
+      "items": [
+        "Diseño, fabricación y montaje de estructuras metálicas",
+        "Estructuras industriales pesadas (naves, plantas, tanques)",
+        "Estructuras ligeras (barandas, cercos metálicos, graderías)"
+      ]
+    },
+    {
+      "category": "Servicios técnicos",
+      "title": "Servicios técnicos complementarios",
+      "items": [
+        "Topografía y levantamientos",
+        "Planificación y gestión de proyectos",
+        "Estudios de evaluación estructural"
+      ]
+    },
+    {
+      "category": "Logística",
+      "title": "Transporte de mercancías y materiales",
+      "items": [
+        "Fletes y traslado de materiales de construcción",
+        "Transporte de equipos y herramientas menores",
+        "Distribución de insumos y repuestos a obra",
+        "Servicio de carga y descarga en destino"
+      ]
+    }
+  ],
+  "contact": {
+    "email": "jubralestructuras@gmail.com",
+    "phones": [
+      "955 979 617",
+      "989 719 521"
+    ],
+    "person": "Bruno Choquepata",
+    "note": "Atendemos proyectos en la región sur del Perú."
+  }
+}
