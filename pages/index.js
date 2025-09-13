@@ -28,8 +28,12 @@ export default function Home({content}){
               <a className="btn secondary" href="#servicios">Ver servicios</a>
             </div>
           </div>
-          <div className="card" style={{borderRadius:16}}>
-            <img src="/logo.jpg" alt={brand.name + ' logo'} style={{background:'#fff',border:'1px solid var(--line)',borderRadius:12}}/>
+          <div className="card" style={{ borderRadius: 16, overflow: 'hidden', padding: 0 }}>
+            <img
+              src={hero.image || brand.logo || '/logo.jpg'}
+              alt={hero.alt || (brand.name + ' hero')}
+              style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+            />
           </div>
         </div>
       </header>

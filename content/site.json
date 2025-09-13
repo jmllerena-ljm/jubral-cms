@@ -7,10 +7,9 @@
     "kicker": "Soluciones integrales en construcción",
     "title": "Construimos confianza. Proyectamos futuro.",
     "subtitle": "Empresa de construcción que transforma proyectos en realidades sólidas y duraderas.",
-    "cta": {
-      "label": "Contáctanos",
-      "href": "#contacto"
-    }
+    "image": "/img/hero.jpg",
+    "alt": "Equipo en obra con estructuras de acero y grúa torre",
+    "cta": { "label": "Contáctanos", "href": "#contacto" }
   },
   "about": {
     "title": "Presentación",
