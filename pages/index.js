@@ -30,7 +30,7 @@ export default function Home({content}){
           </div>
           <div className="card" style={{ borderRadius: 16, overflow: 'hidden', padding: 0 }}>
             <img
-              src={'/img/hero.jpg'}
+              src={hero.image || brand.logo || '/logo.jpg'}
               alt={hero.alt || (brand.name + ' hero')}
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             />
