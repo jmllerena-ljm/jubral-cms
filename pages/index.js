@@ -4,6 +4,8 @@ import path from 'path'
 import Nav from '../components/Nav'
 import Section from '../components/Section'
 import Services from '../components/Services'
+import Hero from '../components/Hero'
+import CTA from '../components/CTA'
 
 export async function getStaticProps(){
   const p = path.join(process.cwd(), 'content', 'site.json')
@@ -38,6 +40,8 @@ export default function Home({content}){
         </div>
       </header>
 
+      <Hero hero={hero} brand={brand} />
+
       <Section id="presentacion" title={about.title} kicker="Quiénes somos">
         {about.body.split('\n\n').map((p,i)=>(<p key={i}>{p}</p>))}
       </Section>
@@ -46,6 +50,9 @@ export default function Home({content}){
       <Section id="vision" title="Visión"><p>{vision.body}</p></Section>
 
       <Services items={services} />
+
+      {/* CTA */}
+      <CTA />
 
       <Section id="contacto" title="Contáctenos">
         <div className="table">
