@@ -19,27 +19,7 @@ export default function Home({content}){
   return (
     <main>
       <Nav brand={brand} />
-      <header className="hero">
-        <div className="container hero-inner">
-          <div>
-            <span className="kicker">{hero.kicker}</span>
-            <h1>{hero.title}</h1>
-            <p>{hero.subtitle}</p>
-            <div style={{display:'flex',gap:12,marginTop:8}}>
-              <a className="btn" href={hero.cta.href || '#contacto'}>{hero.cta.label}</a>
-              <a className="btn secondary" href="#servicios">Ver servicios</a>
-            </div>
-          </div>
-          <div className="card" style={{ borderRadius: 16, overflow: 'hidden', padding: 0 }}>
-            <img
-              src={hero.image || brand.logo || '/logo.jpg'}
-              alt={hero.alt || (brand.name + ' hero')}
-              style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-            />
-          </div>
-        </div>
-      </header>
-
+      
       <Hero hero={hero} brand={brand} />
 
       <Section id="presentacion" title={about.title} kicker="Quiénes somos">
