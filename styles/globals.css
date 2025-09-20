@@ -53,3 +53,41 @@ footer{margin-top:40px;border-top:1px solid var(--line);padding:24px;color:var(-
 .table{display:grid;grid-template-columns:160px 1fr;gap:10px}
 hr{border:0;border-top:1px solid var(--line);margin:16px 0}
 code{background:#f1f3f9;border:1px solid #e2e7f2;padding:2px 6px;border-radius:6px}
+
+/* Full-screen background hero */
+.hero-full{
+  position: relative;
+  width: 100%;
+  min-height: 100svh;            /* alto = 100% de la ventana, compatible mobile */
+  background-size: cover;        /* cubre todo el ancho */
+  background-position: center;   /* centrado */
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: center;           /* centra el contenido */
+}
+
+/* máscara/gradiente para mejorar legibilidad del texto */
+.hero-mask{
+  position: absolute; inset: 0;
+  background:
+    linear-gradient(180deg, rgba(0,0,0,.45) 0%, rgba(0,0,0,.25) 35%, rgba(0,0,0,.55) 100%);
+}
+
+/* contenido del hero */
+.hero-full__content{
+  position: relative; z-index: 1;
+  color: #fff; text-align: left;
+  max-width: 900px; padding: 0 20px;
+}
+.hero-full__content h1{
+  font-size: clamp(34px, 6vw, 56px);
+  line-height: 1.08; margin: 10px 0 8px;
+}
+.hero-full__content .lead{
+  font-size: clamp(16px, 1.4vw, 20px);
+  color: rgba(255,255,255,.9);
+  max-width: 60ch;
+}
+
+.cta{padding:56px 0}
+.cta-inner{background:linear-gradient(90deg,var(--brand),var(--brand-dark));color:#fff;border-radius:20px;padding:28px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
