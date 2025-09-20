@@ -19,13 +19,13 @@ a{color:inherit;text-decoration:none}
 .container{max-width:1160px;margin:0 auto;padding:28px}
 .nav{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.85);
   backdrop-filter:blur(10px);border-bottom:1px solid var(--line);}
-.nav-inner{display:flex;align-items:center;justify-content:space-between;padding:12px 16px}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;padding:12px 16px !important}
 .brand{display:flex;align-items:center;gap:12px}
 .brand img{width:44px;height:44px;object-fit:contain;border-radius:8px;border:1px solid var(--line);background:#fff}
 .brand span{font-weight:800;letter-spacing:.4px}
-.btn{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(90deg,var(--brand),var(--brand-dark));
+.btn{display:inline-flex;align-items:center;gap:8px;
   border:none;border-radius:12px;color:#fff;padding:11px 16px;font-weight:700;cursor:pointer;box-shadow:0 10px 18px rgba(177,58,63,.23)}
-.btn.secondary{background:#fff;color:var(--brand);border:1px solid var(--brand);box-shadow:none}
+.btn.secondary{background:#fff;border:1px solid var(--brand);box-shadow:none}
 
 .hero{background:linear-gradient(180deg,#fff, #fafbff);border-bottom:1px solid var(--line)}
 .hero-inner{display:grid;grid-template-columns:1.2fr 1fr;gap:28px;align-items:center;padding:40px 0}
@@ -37,7 +37,7 @@ h1{font-size:46px;line-height:1.08;margin:8px 0}
 h2{font-size:28px;margin:8px 0 14px}
 p{color:var(--muted);line-height:1.75}
 
-.section{margin-top:32px}
+.section{margin-top:32px !important}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px;box-shadow:0 20px 40px rgba(10,14,21,.06)}
 
 .grid-3{display:grid;grid-template-columns:repeat(3, minmax(0,1fr));gap:18px}
@@ -122,11 +122,5 @@ code{background:#f1f3f9;border:1px solid #e2e7f2;padding:2px 6px;border-radius:6
   max-width: 60ch;
 }
 
-/* kicker y botones (coinciden con tu estilo) */
-.kicker{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#cfe5ff}
-.cta-row{display:flex;gap:12px;margin-top:14px;flex-wrap:wrap}
-.btn{background:#2b6af5;border:1px solid #2b6af5;color:#fff;padding:10px 16px;border-radius:12px}
-.btn:hover{background:#1f53cc;border-color:#1f53cc}
-.btn.secondary{background:#ffffff;border-color:#d6e3ff;color:#2b6af5}
 
 
