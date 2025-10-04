@@ -4,7 +4,7 @@
     "logo": "/logo.jpg"
   },
   "hero": {
-    "images": ["/img/hero1.jpg", "/img/hero2.jpg", "/img/hero3.jpg"],
+    "images": ["/img/services/construccion.jpg", "/img/services/ingenieria.jpg", "/img/services/logistica.jpg"],
     "intervalMs": 4500,
     "kicker": "Soluciones integrales en construcción",
     "title": "Construimos confianza. Proyectamos futuro.",
