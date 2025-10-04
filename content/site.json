@@ -4,10 +4,11 @@
     "logo": "/logo.jpg"
   },
   "hero": {
+    "images": ["/img/hero1.jpg", "/img/hero2.jpg", "/img/hero3.jpg"],
+    "intervalMs": 4500,
     "kicker": "Soluciones integrales en construcción",
     "title": "Construimos confianza. Proyectamos futuro.",
     "subtitle": "Empresa de construcción que transforma proyectos en realidades sólidas y duraderas.",
-    "image": "/img/hero.jpg",
     "alt": "Equipo en obra con estructuras de acero y grúa torre",
     "cta": { "label": "Contáctanos", "href": "#contacto" }
   },
@@ -77,12 +78,20 @@
     }
   ],
   "contact": {
+    "address": {
+      "line1": "Av. Ejemplo 123 – Urb. Progreso",
+      "line2": "Oficina 402, Cerro Colorado",
+      "city": "Arequipa, Perú"
+    },
     "email": "jubralestructuras@gmail.com",
-    "phones": [
-      "955 979 617",
-      "989 719 521"
-    ],
+    "phones": ["955 979 617", "989 719 521"],
     "person": "Bruno Choquepata",
-    "note": "Atendemos proyectos en la región sur del Perú."
+    "note": "Atendemos proyectos en la región sur del Perú.",
+    "socials": {
+      "whatsapp": "https://wa.me/51955979617",
+      "facebook": "https://facebook.com/tu_pagina",
+      "instagram": "https://instagram.com/tu_perfil",
+      "linkedin": "https://www.linkedin.com/company/tu_empresa"
+    }
   }
 }
