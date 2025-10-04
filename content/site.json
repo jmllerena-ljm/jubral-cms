@@ -9,7 +9,10 @@
     "subtitle": "Empresa de construcción que transforma proyectos en realidades sólidas y duraderas.",
     "image": "/img/hero.jpg",
     "alt": "Equipo en obra con estructuras de acero y grúa torre",
-    "cta": { "label": "Contáctanos", "href": "#contacto" }
+    "cta": {
+      "label": "Contáctanos",
+      "href": "#contacto"
+    }
   },
   "about": {
     "title": "Presentación",
@@ -77,12 +80,12 @@
     }
   ],
   "contact": {
-    "email": "jubralestructuras@gmail.com",
+    "email": "atencion@jubral.com",
     "phones": [
       "955 979 617",
       "989 719 521"
     ],
-    "person": "Bruno Choquepata",
+    "person": "JUBRAL",
     "note": "Atendemos proyectos en la región sur del Perú."
   }
 }
